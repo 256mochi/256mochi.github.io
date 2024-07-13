@@ -4,123 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>256mochi/ネコモチ</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Open Sans', Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #FFFFFF;
-        }
-        header, nav, main, footer {
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        header {
-            background-color: #F5F5F5;
-            text-align: center;
-            padding: 40px 20px;
-        }
-        h1 {
-            color: #000000;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            background-color: #E0E0E0;
-            padding: 10px 0;
-        }
-        nav ul li {
-            margin: 0 15px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: #000000;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
-        nav ul li a:hover {
-            color: #6B8E23;
-        }
-        section {
-            margin-bottom: 40px;
-            background-color: #F5F5F5;
-            padding: 20px;
-            border-radius: 5px;
-        }
-        h2 {
-            color: #6B8E23;
-            border-bottom: 2px solid #6B8E23;
-            padding-bottom: 10px;
-        }
-        a {
-            color: #6B8E23;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            background-color: #E0E0E0;
-            text-align: center;
-            padding: 10px;
-            color: #000000;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>256mochi/ネコモチ</h1>
+        <nav>
+            <ul>
+                <li><a href="#News">News</a></li>
+                <li><a href="#Profile">Profile</a></li>
+                <li><a href="#Works">Works</a></li>
+                <li><a href="#SNS">SNS</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#News">News</a></li>
-            <li><a href="#Profile">Profile</a></li>
-            <li><a href="#Works">Works</a></li>
-            <li><a href="#SNS">SNS</a></li>
-        </ul>
-    </nav>
+
     <main>
         <section id="News">
             <h2>News</h2>
             <ul>
-                <li><time>2024-06-28</time> <a href="#">最新の日記タイトル1</a></li>
-                <li><time>2024-06-25</time> <a href="#">最新の日記タイトル2</a></li>
-                <li><time>2024-06-22</time> <a href="#">最新の日記タイトル3</a></li>
+                <li><time datetime="2024-06-28">2024-06-28</time> <a href="#">最新の日記タイトル1</a></li>
+                <li><time datetime="2024-06-25">2024-06-25</time> <a href="#">最新の日記タイトル2</a></li>
+                <li><time datetime="2024-06-22">2024-06-22</time> <a href="#">最新の日記タイトル3</a></li>
             </ul>
-            <p><a href="#">過去の記事を見る</a></p>
+            <a href="#" class="more-link">過去の記事を見る</a>
         </section>
+
         <section id="Profile">
             <h2>Profile</h2>
             <p>ここに自己紹介文を記載します。現在はダミーテキストになっています。</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </section>
+
         <section id="Works">
             <h2>Works</h2>
             <p>イラストとか楽曲とかブログとか。</p>
             <h3>イラスト</h3>
-            <p><a href="https://www.pixiv.net/en/users/Your_Pixiv_ID" target="_blank">pixivで作品を見る</a></p>
+            <p><a href="https://www.pixiv.net/en/users/Your_Pixiv_ID" target="_blank" rel="noopener noreferrer">pixivで作品を見る</a></p>
             <h3>楽曲</h3>
-            <p><a href="https://soundcloud.com/Your_SoundCloud_ID" target="_blank">SoundCloudで楽曲を聴く</a></p>
+            <p><a href="https://soundcloud.com/Your_SoundCloud_ID" target="_blank" rel="noopener noreferrer">SoundCloudで楽曲を聴く</a></p>
         </section>
+
         <section id="SNS">
             <h2>SNS</h2>
             <ul>
-                <li><a href="#" target="_blank">Twitter</a></li>
-                <li><a href="#" target="_blank">Instagram</a></li>
-                <!-- 他のSNSリンクをここに追加 -->
+                <li><a href="#" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
             </ul>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 ねこちぐら. All rights reserved.</p>
+        <p>&copy; 2024 256mochi. All rights reserved.</p>
     </footer>
 </body>
 </html>
