@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #FFFFFF;
+    background-color: #aaaaaa;
 }
 header, nav, main, footer {
     padding: 20px;
@@ -12,12 +12,12 @@ header, nav, main, footer {
     margin: 0 auto;
 }
 header {
-    background-color: #F5F5F5;
+    background-color: #7f9a8b;
     text-align: center;
     padding: 40px 20px;
 }
 h1 {
-    color: #000000;
+    color: #ffffff;
     font-size: 2.5em;
     margin-bottom: 10px;
 }
@@ -26,7 +26,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background-color: #E0E0E0;
+    background-color: #aaaaaa;
     padding: 10px 0;
 }
 nav ul li {
@@ -39,7 +39,7 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 nav ul li a:hover {
-    color: #6B8E23;
+    color: #7f9a8b;
 }
 section {
     margin-bottom: 40px;
@@ -48,19 +48,19 @@ section {
     border-radius: 5px;
 }
 h2 {
-    color: #6B8E23;
-    border-bottom: 2px solid #6B8E23;
+    color: #7f9a8b;
+    border-bottom: 2px solid #7f9a8b;
     padding-bottom: 10px;
 }
 a {
-    color: #6B8E23;
+    color: #7f9a8b;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 footer {
-    background-color: #E0E0E0;
+    background-color: #7f9a8b;
     text-align: center;
     padding: 10px;
     color: #000000;
